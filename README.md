@@ -14,7 +14,7 @@ The dataset used in this project comes from here in the IBM Accelerator Catalog.
 I am using a modified subset of that dataset for the project, rather than the dataset from the original source.
 
 ### Accessing the Dataset for BM's Cognos Analytics
-The dataset used in this final assignment is provided as sample data within your Cognos environment, in a data module called Auto group data module.
+The dataset used in this final assignment is provided as sample data within my Cognos environment, in a data module called Auto group data module.
 
 To load and open the data module:
 
@@ -22,8 +22,20 @@ On the navigation panel of Cognos Analytics, select Team content.
 
 Now go to By industry > Automotive > Data.
 
-Here the sample data used in this final assignment can be found, in a data module called Auto group data module. Right-click on Auto group data module and select Create Dashboard.
+Here, the sample data used in this final assignment can be found, in a data module called Auto group data module. Right-click on Auto group data module and select Create Dashboard.
 
+### Accessing the Dataset for the Google Looker
+To access the dataset, I need to download this dataset (all files) and import them into my Google Drive.
+
+Upload all these files to my drive. I use the Google Sheets connector in Looker Studio to connect with these Excel worksheets to add data into my report
+
+In case it doesn't show the files while adding, then open a blank Google Sheet in your drive.
+
+Click on Import from the File menu, and then select the relevant file from your drive.
+
+Then you can use the Google Sheets connector in Looker Studio to connect with these Excel worksheets to add data to my report. Select the data sheets one by one and add them to your report or create a data source.
+
+Alternatively, I can use the CSV versions of these files, which can be downloaded from here.
 
 
 ## PART a: Create Visualizations using IBM's Cognos Analytics (OR Google's Looker Studio )
